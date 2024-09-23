@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Sridh\eclipse-workspace\OrangeHRM\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC001_AccountTest" class="method navigator-link" hash-for-method="Account_Registration">Account_Registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginclassTest" class="method navigator-link" hash-for-method="Monoptions">Monoptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginclassTest" class="method navigator-link" hash-for-method="Myaccount">Myaccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginclassTest" class="method navigator-link" hash-for-method="loinAccount">loinAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC0003_loginTest" class="method navigator-link" hash-for-method="loinDTT(lakshmi@yahoo.com, laxmi, invalid)">loinDTT(lakshmi@yahoo.com, laxmi, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC0003_loginTest" class="method navigator-link" hash-for-method="loinDTT(abc123@gmail.com, test@123, valid)">loinDTT(abc123@gmail.com, test@123, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC0003_loginTest" class="method navigator-link" hash-for-method="loinDTT(ram123@gmail.com, ram, invalid)">loinDTT(ram123@gmail.com, ram, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC0003_loginTest" class="method navigator-link" hash-for-method="loinDTT(Laksh@gmail.com, Lakshmi, invalid)">loinDTT(Laksh@gmail.com, Lakshmi, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC0003_loginTest" class="method navigator-link" hash-for-method="loinDTT(Sridhar12@gmail.com, Sridhar@123, valid)">loinDTT(Sridhar12@gmail.com, Sridhar@123, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.LoginclassTest" class="method navigator-link" hash-for-method="mouse">mouse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.LoginclassTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Monoptions">
+                  </a> <!-- Monoptions -->
+                  <span class="method-name">Monoptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Myaccount">
+                  </a> <!-- Myaccount -->
+                  <span class="method-name">Myaccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loinAccount">
+                  </a> <!-- loinAccount -->
+                  <span class="method-name">loinAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mouse">
+                  </a> <!-- mouse -->
+                  <span class="method-name">mouse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC001_AccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Account_Registration">
+                  </a> <!-- Account_Registration -->
+                  <span class="method-name">Account_Registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC0003_loginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loinDTT(lakshmi@yahoo.com, laxmi, invalid)">
+                  </a> <!-- loinDTT(lakshmi@yahoo.com, laxmi, invalid) -->
+                  <span class="method-name">loinDTT</span>
+                  <span class="parameters">(lakshmi@yahoo.com,laxmi,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loinDTT(abc123@gmail.com, test@123, valid)">
+                  </a> <!-- loinDTT(abc123@gmail.com, test@123, valid) -->
+                  <span class="method-name">loinDTT</span>
+                  <span class="parameters">(abc123@gmail.com,test@123,valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loinDTT(ram123@gmail.com, ram, invalid)">
+                  </a> <!-- loinDTT(ram123@gmail.com, ram, invalid) -->
+                  <span class="method-name">loinDTT</span>
+                  <span class="parameters">(ram123@gmail.com,ram,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loinDTT(Laksh@gmail.com, Lakshmi, invalid)">
+                  </a> <!-- loinDTT(Laksh@gmail.com, Lakshmi, invalid) -->
+                  <span class="method-name">loinDTT</span>
+                  <span class="parameters">(Laksh@gmail.com,Lakshmi,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loinDTT(Sridhar12@gmail.com, Sridhar@123, valid)">
+                  </a> <!-- loinDTT(Sridhar12@gmail.com, Sridhar@123, valid) -->
+                  <span class="method-name">loinDTT</span>
+                  <span class="parameters">(Sridhar12@gmail.com,Sridhar@123,valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Sridh\eclipse-workspace\OrangeHRM\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;resources.MyListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;OS&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.TC0003_loginTest&quot;/&gt;
+      &lt;class name=&quot;TestCases.TC001_AccountTest&quot;/&gt;
+      &lt;class name=&quot;TestCases.LoginclassTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">master</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Account_Registration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Myaccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loinAccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Account_Registration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Myaccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loinAccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loinDTT')
+data.setCell(0, 2, 'TestCases.TC0003_loginTest')
+data.setCell(0, 3, 11235);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loinDTT')
+data.setCell(1, 2, 'TestCases.TC0003_loginTest')
+data.setCell(1, 3, 11063);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loinDTT')
+data.setCell(2, 2, 'TestCases.TC0003_loginTest')
+data.setCell(2, 3, 10902);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'mouse')
+data.setCell(3, 2, 'TestCases.LoginclassTest')
+data.setCell(3, 3, 6698);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loinDTT')
+data.setCell(4, 2, 'TestCases.TC0003_loginTest')
+data.setCell(4, 3, 1925);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loinDTT')
+data.setCell(5, 2, 'TestCases.TC0003_loginTest')
+data.setCell(5, 3, 1715);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Account_Registration')
+data.setCell(6, 2, 'TestCases.TC001_AccountTest')
+data.setCell(6, 3, 1699);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loinAccount')
+data.setCell(7, 2, 'TestCases.LoginclassTest')
+data.setCell(7, 3, 1551);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Myaccount')
+data.setCell(8, 2, 'TestCases.LoginclassTest')
+data.setCell(8, 3, 396);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Monoptions')
+data.setCell(9, 2, 'TestCases.LoginclassTest')
+data.setCell(9, 3, 267);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC0003_loginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loinDTT(Sridhar12@gmail.com, Sridhar@123, valid)</span>
+                <span class="method-start">5973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loinDTT(lakshmi@yahoo.com, laxmi, invalid)</span>
+                <span class="method-start">7705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loinDTT(Laksh@gmail.com, Lakshmi, invalid)</span>
+                <span class="method-start">18769 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loinDTT(ram123@gmail.com, ram, invalid)</span>
+                <span class="method-start">30006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loinDTT(abc123@gmail.com, test@123, valid)</span>
+                <span class="method-start">40908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">42834 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC001_AccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">43192 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Account_Registration</span>
+                <span class="method-start">45251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">46953 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.LoginclassTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">47158 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loinAccount</span>
+                <span class="method-start">49249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Myaccount</span>
+                <span class="method-start">50802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mouse</span>
+                <span class="method-start">51202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Monoptions</span>
+                <span class="method-start">57903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">58171 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

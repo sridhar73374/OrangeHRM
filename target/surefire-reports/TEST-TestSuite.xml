@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="59.991" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\Sridh\eclipse-workspace\OrangeHRM\target\test-classes;C:\Users\Sridh\eclipse-workspace\OrangeHRM\target\classes;C:\Users\Sridh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Sridh\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Sridh\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Sridh\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Sridh\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Sridh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Sridh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.24.0\selenium-java-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.24.0\selenium-api-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.24.0\selenium-chrome-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.24.0\selenium-chromium-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.24.0\selenium-json-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.24.0\selenium-manager-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.24.0\selenium-devtools-v126-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.24.0\selenium-devtools-v127-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.24.0\selenium-devtools-v128-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.24.0\selenium-devtools-v85-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.24.0\selenium-edge-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.24.0\selenium-firefox-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.24.0\selenium-http-4.24.0.jar;C:\Users\Sridh\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.24.0\selenium-ie-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.24.0\selenium-remote-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Sridh\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Sridh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sridh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sridh\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Sridh\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Sridh\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-api\1.41.0\opentelemetry-api-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-context\1.41.0\opentelemetry-context-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.41.0\opentelemetry-exporter-logging-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.41.0\opentelemetry-sdk-common-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.41.0\opentelemetry-sdk-extension-autoconfigure-spi-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.41.0\opentelemetry-sdk-extension-autoconfigure-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.41.0-alpha\opentelemetry-api-incubator-1.41.0-alpha.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.41.0\opentelemetry-sdk-trace-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.41.0\opentelemetry-sdk-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.41.0\opentelemetry-sdk-metrics-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.41.0\opentelemetry-sdk-logs-1.41.0.jar;C:\Users\Sridh\.m2\repository\net\bytebuddy\byte-buddy\1.15.0\byte-buddy-1.15.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.24.0\selenium-os-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.24.0\selenium-safari-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.24.0\selenium-support-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Sridh\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Sridh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sridh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sridh\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Sridh\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Sridh\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Sridh\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Sridh\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Sridh\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Sridh\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\Sridh\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\Sridh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Sridh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Sridh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Sridh\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\Sridh\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.0\log4j-core-2.24.0.jar;C:\Users\Sridh\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.0\log4j-api-2.24.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\Sridh\Downloads\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sridh\AppData\Local\Temp\surefire12813304215097499219\surefirebooter-20240922153247981_3.jar C:\Users\Sridh\AppData\Local\Temp\surefire12813304215097499219 2024-09-22T15-32-47_763-jvmRun1 surefire-20240922153247981_1tmp surefire_0-20240922153247981_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Sridh\eclipse-workspace\OrangeHRM\target\test-classes;C:\Users\Sridh\eclipse-workspace\OrangeHRM\target\classes;C:\Users\Sridh\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Sridh\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Sridh\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Sridh\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Sridh\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Sridh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Sridh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.24.0\selenium-java-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.24.0\selenium-api-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.24.0\selenium-chrome-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.24.0\selenium-chromium-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.24.0\selenium-json-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.24.0\selenium-manager-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.24.0\selenium-devtools-v126-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.24.0\selenium-devtools-v127-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.24.0\selenium-devtools-v128-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.24.0\selenium-devtools-v85-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.24.0\selenium-edge-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.24.0\selenium-firefox-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.24.0\selenium-http-4.24.0.jar;C:\Users\Sridh\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.24.0\selenium-ie-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.24.0\selenium-remote-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Sridh\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Sridh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sridh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sridh\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Sridh\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Sridh\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-api\1.41.0\opentelemetry-api-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-context\1.41.0\opentelemetry-context-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.41.0\opentelemetry-exporter-logging-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.41.0\opentelemetry-sdk-common-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.41.0\opentelemetry-sdk-extension-autoconfigure-spi-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.41.0\opentelemetry-sdk-extension-autoconfigure-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.41.0-alpha\opentelemetry-api-incubator-1.41.0-alpha.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.41.0\opentelemetry-sdk-trace-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.41.0\opentelemetry-sdk-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.41.0\opentelemetry-sdk-metrics-1.41.0.jar;C:\Users\Sridh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.41.0\opentelemetry-sdk-logs-1.41.0.jar;C:\Users\Sridh\.m2\repository\net\bytebuddy\byte-buddy\1.15.0\byte-buddy-1.15.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.24.0\selenium-os-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.24.0\selenium-safari-driver-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.24.0\selenium-support-4.24.0.jar;C:\Users\Sridh\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Sridh\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Sridh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sridh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sridh\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Sridh\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Sridh\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Sridh\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Sridh\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Sridh\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Sridh\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\Sridh\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\Sridh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Sridh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Sridh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Sridh\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\Sridh\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.0\log4j-core-2.24.0.jar;C:\Users\Sridh\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.0\log4j-api-2.24.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sridh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Users\Sridh\Downloads\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\Sridh\eclipse-workspace\OrangeHRM"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sridh\AppData\Local\Temp\surefire12813304215097499219\surefirebooter-20240922153247981_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="Sridh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="C:\Users\Sridh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sridh\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Users\Sridh\eclipse-workspace\OrangeHRM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Sridh\Downloads\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-22\bin;C:\Program Files (x86)\nodejs\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\Sridh\AppData\Local\Microsoft\WindowsApps;C:\Users\Sridh\AppData\Roaming\npm;C:\Users\Sridh\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="loinDTT[Sridhar12@gmail.com, Sridhar@123, valid](1)" classname="TestCases.TC0003_loginTest" time="1.732">
+    <system-out><![CDATA[5
+3
+Sridhar12@gmail.com1 0
+5
+Sridhar@1231 1
+5
+valid1 2
+5
+lakshmi@yahoo.com2 0
+5
+laxmi2 1
+5
+invalid2 2
+5
+Laksh@gmail.com3 0
+5
+Lakshmi3 1
+5
+invalid3 2
+5
+ram123@gmail.com4 0
+5
+ram4 1
+5
+invalid4 2
+5
+abc123@gmail.com5 0
+5
+test@1235 1
+5
+valid5 2
+5
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Sep 22, 2024 3:32:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="loinDTT[lakshmi@yahoo.com, laxmi, invalid](2)" classname="TestCases.TC0003_loginTest" time="11.056"/>
+  <testcase name="loinDTT[Laksh@gmail.com, Lakshmi, invalid](3)" classname="TestCases.TC0003_loginTest" time="11.237"/>
+  <testcase name="loinDTT[ram123@gmail.com, ram, invalid](4)" classname="TestCases.TC0003_loginTest" time="10.905"/>
+  <testcase name="loinDTT[abc123@gmail.com, test@123, valid](5)" classname="TestCases.TC0003_loginTest" time="1.92"/>
+  <testcase name="Account_Registration" classname="TestCases.TC001_AccountTest" time="1.699">
+    <system-err><![CDATA[Sep 22, 2024 3:33:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="loinAccount" classname="TestCases.LoginclassTest" time="1.551">
+    <system-err><![CDATA[Sep 22, 2024 3:33:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 129
+]]></system-err>
+  </testcase>
+  <testcase name="Myaccount" classname="TestCases.LoginclassTest" time="0.398"/>
+  <testcase name="mouse" classname="TestCases.LoginclassTest" time="6.698">
+    <system-out><![CDATA[https://tutorialsninja.com/demo/index.php?route=product/category&path=25_28
+]]></system-out>
+  </testcase>
+  <testcase name="Monoptions" classname="TestCases.LoginclassTest" time="0.268">
+    <system-out><![CDATA[Default
+Name (A - Z)
+Name (Z - A)
+Price (Low > High)
+Price (High > Low)
+Rating (Highest)
+Rating (Lowest)
+Model (A - Z)
+Model (Z - A)
+https://tutorialsninja.com/demo/index.php?route=account/logout
+]]></system-out>
+  </testcase>
+</testsuite>

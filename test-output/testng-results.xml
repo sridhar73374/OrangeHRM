@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-22T15:16:16 IST" name="Suite" finished-at="2024-09-22T15:16:32 IST" duration-ms="15811">
+    <groups>
+      <group name="regression">
+        <method signature="TC001_AccountTest.Account_Registration()[pri:0, instance:TestCases.TC001_AccountTest@74e28667]" name="Account_Registration" class="TestCases.TC001_AccountTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LoginclassTest.loinAccount()[pri:1, instance:TestCases.LoginclassTest@5149d738]" name="loinAccount" class="TestCases.LoginclassTest"/>
+        <method signature="LoginclassTest.Myaccount()[pri:2, instance:TestCases.LoginclassTest@5149d738]" name="Myaccount" class="TestCases.LoginclassTest"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC001_AccountTest.Account_Registration()[pri:0, instance:TestCases.TC001_AccountTest@74e28667]" name="Account_Registration" class="TestCases.TC001_AccountTest"/>
+        <method signature="LoginclassTest.loinAccount()[pri:1, instance:TestCases.LoginclassTest@5149d738]" name="loinAccount" class="TestCases.LoginclassTest"/>
+        <method signature="LoginclassTest.Myaccount()[pri:2, instance:TestCases.LoginclassTest@5149d738]" name="Myaccount" class="TestCases.LoginclassTest"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-09-22T15:16:16 IST" name="Test" finished-at="2024-09-22T15:16:32 IST" duration-ms="15811">
+      <class name="TestCases.TC001_AccountTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC001_AccountTest@74e28667]" started-at="2024-09-22T15:16:16 IST" name="setup" finished-at="2024-09-22T15:16:19 IST" duration-ms="2674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Account_Registration()[pri:0, instance:TestCases.TC001_AccountTest@74e28667]" started-at="2024-09-22T15:16:19 IST" name="Account_Registration" finished-at="2024-09-22T15:16:21 IST" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Account_Registration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.TC001_AccountTest@74e28667]" started-at="2024-09-22T15:16:21 IST" name="teardown" finished-at="2024-09-22T15:16:21 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TC001_AccountTest -->
+      <class name="TestCases.LoginclassTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginclassTest@5149d738]" started-at="2024-09-22T15:16:21 IST" name="setup" finished-at="2024-09-22T15:16:23 IST" duration-ms="1993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loinAccount()[pri:1, instance:TestCases.LoginclassTest@5149d738]" started-at="2024-09-22T15:16:23 IST" name="loinAccount" finished-at="2024-09-22T15:16:24 IST" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loinAccount -->
+        <test-method signature="Myaccount()[pri:2, instance:TestCases.LoginclassTest@5149d738]" started-at="2024-09-22T15:16:24 IST" name="Myaccount" finished-at="2024-09-22T15:16:25 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Myaccount -->
+        <test-method signature="mouse()[pri:3, instance:TestCases.LoginclassTest@5149d738]" started-at="2024-09-22T15:16:25 IST" name="mouse" finished-at="2024-09-22T15:16:31 IST" duration-ms="6709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouse -->
+        <test-method signature="Monoptions()[pri:4, instance:TestCases.LoginclassTest@5149d738]" started-at="2024-09-22T15:16:31 IST" name="Monoptions" finished-at="2024-09-22T15:16:32 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Monoptions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.LoginclassTest@5149d738]" started-at="2024-09-22T15:16:32 IST" name="teardown" finished-at="2024-09-22T15:16:32 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.LoginclassTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
